@@ -1,4 +1,5 @@
 class Solution {
+    //good approach --> https://walkccc.me/LeetCode/problems/2032/
     public List<Integer> twoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {
         List<Integer> list1 = Arrays.stream(nums1).boxed().collect(Collectors.toList());
         List<Integer> list2 = Arrays.stream(nums2).boxed().collect(Collectors.toList());
