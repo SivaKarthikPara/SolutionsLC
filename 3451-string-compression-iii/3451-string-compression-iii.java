@@ -12,12 +12,7 @@ class Solution {
             }
 
             i = j;
-            comp = comp + count + ch;    
-            System.out.println(i);
-            System.out.println(j);
-            System.out.println(count);
-            System.out.println(comp);        
-
+            comp = comp + count + ch;
         }
 
         return comp;
