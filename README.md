@@ -4,10 +4,12 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0001-two-sum) |
 | [0139-word-break](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0139-word-break) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0001-two-sum) |
 | [0139-word-break](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0139-word-break) |
 ## String
 |  |
