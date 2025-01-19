@@ -10,7 +10,7 @@ class Solution {
             if(windowSize - maxFreq > k) {
                 freq[s.charAt(left)-'A']--;
                 left++;
-                windowSize--;
+                windowSize = right - left + 1;
             }
             maxWindow = Math.max(maxWindow, windowSize);
         }
