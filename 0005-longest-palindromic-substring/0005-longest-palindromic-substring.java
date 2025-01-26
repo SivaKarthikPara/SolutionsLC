@@ -1,25 +1,33 @@
 class Solution {
     public String longestPalindrome(String s) {
-        int n = s.length();
-        int [][] dp = new int[n][n];
         int maxLength = 0;
-        String result=null;
-        for(int diff = 0; diff<n;diff++){
-            for(int i = 0, j = i+diff; j<n; i++,j++){
-                if(i==j){
-                    dp[i][j] = 1;
-                }
-                else if(diff == 1){
-                    dp[i][j] = (s.charAt(i) == s.charAt(j))?2:0;
-                }
-                else if(s.charAt(i) == s.charAt(j) && dp[i+1][j-1]!=0){
-                    dp[i][j] = dp[i+1][j-1]+2;
-                }
+        String result="";
+        for(int i = 0; i<s.length();i++) {
+            // considering odd length/palindromes
+           int low = i, high = i;
+           while(s.charAt(low) == s.charAt(high)) { 
+                low--;
+                high++;
+                if(low == -1 || high == s.length())
+                    break;
+           }
+            String palindrome = s.substring(low+1, high);
+            if(result.length() < palindrome.length() ){
+                result = palindrome;
+            }
 
-                if(dp[i][j]!=0 && maxLength<j-i+1){
-                    maxLength=j-i+1;
-                    result=s.substring(i,j+1);
-                }
+           // considering even length/palindromes
+            low = i-1;
+            high = i;
+           while(low != -1 && s.charAt(low) == s.charAt(high)) { 
+                low--;
+                high++;
+                if(low == -1 || high == s.length())
+                    break;
+           }
+            palindrome = s.substring(low+1, high);
+            if(result.length() < palindrome.length() ){
+                result = palindrome;
             }
         }
         //  System.out.println(Arrays.deepToString(dp));
