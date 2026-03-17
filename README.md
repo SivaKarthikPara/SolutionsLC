@@ -6,6 +6,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0001-two-sum) |
 | [0139-word-break](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0139-word-break) |
+| [1268-search-suggestions-system](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/1268-search-suggestions-system/) | Medium |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -23,6 +24,7 @@
 | [0139-word-break](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0139-word-break) |
 | [0394-decode-string](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/0394-decode-string/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0424-longest-repeating-character-replacement) |
+| [1268-search-suggestions-system](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/1268-search-suggestions-system/) | Medium |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3451-string-compression-iii](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/3451-string-compression-iii) |
 ## Dynamic Programming
@@ -34,6 +36,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/SivaKarthikPara/SolutionsLC/tree/master/0139-word-break) |
+| [1268-search-suggestions-system](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/1268-search-suggestions-system/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -63,4 +66,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0394-decode-string](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/0394-decode-string/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1268-search-suggestions-system](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/1268-search-suggestions-system/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1268-search-suggestions-system](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/1268-search-suggestions-system/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1268-search-suggestions-system](https://github.com/SivaKarthikPara/SolutionsLC/tree/main/1268-search-suggestions-system/) | Medium |
 <!---LeetCode Topics End-->
